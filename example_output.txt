@@ -1,0 +1,22 @@
+/home/zac/PycharmProjects/grappler/venv/bin/python /home/zac/PycharmProjects/grappler/example.py
+TIMESTAMP, MODULE, LEVEL, MESSAGE
+20180220T170230.148567, root, 100, LOG LEVEL 3
+20180220T170230.169489, BitcoinCoreConnector, 15, Note, Bitcoin P2P doesn't use (or need) SSL.  Disabling.
+20180220T170230.169570, BitcoinCoreConnector, 15, Starting...
+20180220T170230.169614, BitcoinCoreConnector, 10, _connect bitcoin.cluelessperson.com 8333
+20180220T170230.204278, BitcoinCoreConnector, 5 , send version
+20180220T170230.207274, BitcoinCoreConnector, 4 , _receive version
+20180220T170230.207534, BitcoinCoreConnector, 4 , _receive verack
+20180220T170230.207679, BitcoinCoreConnector, 5 , send verack
+20180220T170230.209472, BitcoinCoreConnector, 4 , _receive sendheaders
+20180220T170230.210478, BitcoinCoreConnector, 4 , _receive sendcmpct
+20180220T170230.210696, BitcoinCoreConnector, 4 , _receive sendcmpct
+20180220T170230.210842, BitcoinCoreConnector, 4 , _receive ping
+20180220T170230.211005, ElectrumXConnector, 15, Starting...
+20180220T170230.211118, ElectrumXConnector, 10, _connect bitcoin.cluelessperson.com 50002
+20180220T170230.220587, ElectrumXConnector, 5 , send server.version ()
+20180220T170230.222610, ElectrumXConnector, 5 , _receive {'jsonrpc': '2.0', 'id': 1519167750220, 'result': 'ElectrumX 1.2.1'}
+20180220T170230.222838, ElectrumXConnector, 5 , send blockchain.address.get_balance ('1CFF6NW7oSQAkbbH9EikVVyq3gcH5yEpJM',)
+20180220T170230.225917, ElectrumXConnector, 5 , _receive {'jsonrpc': '2.0', 'id': 1519167750222, 'result': {'confirmed': 0, 'unconfirmed': 0}}
+
+Process finished with exit code 0
