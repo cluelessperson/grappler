@@ -1,0 +1,7 @@
+name = "grappler"
+version = "0.1.0"
+author = "Zachary A. Coon - cluelessperson"
+author_short = "cluelessperson"
+url = "https://github.com/cluelessperson/grappler"
+description = "Example connections to BitcoinD and ElectrumX"
+license = "mit"
